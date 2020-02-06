@@ -1,18 +1,33 @@
 
 <?php
-// a-z 1 _
-// لايجوز لك ان تبدا اسم متغير برقم
-// لا يجوز لك إنشاء متغير بنفس اسماء متغيرات المحجوزة
-// $name غير متساوية مع $namE
+// string
+// integer / int
+// float/double
+// boolean
+// null
 
-// $()name = "Coder Shiyar";
-// $1number = 200;
-$number = 200;
+$text = 'Coder Shiyar'; // نوع البيانات النصي
+echo $text;
+$number = 100;  // integer نوع البيانات ارقام الصحيحي
+echo $number;
+$float_number = 100.25; // نوع البيانات ارقام الذي يحتوي على الفاصلة
+echo "<h1>$float_number</h1>";
 
-$text = "I love Coder Shiyar";
+$boolean = false; // boolean يمكنك تخزين بها true or false
 
-echo $tExt;
+$name = null;  // البيانات غير محددة
+
+$name = "Shiyarjemo";
+echo "<p>$name</p>";
+
+$numbers = array(2020,2021,2050);
+echo $numbers[1];
+
+// array   
+// object
 ?>
+
+
 
 
 

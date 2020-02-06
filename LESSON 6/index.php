@@ -1,21 +1,17 @@
 
 <?php
-$number1 = 12;
-$number2 = 5;
-$result = 3 ** 12;
+// a-z 1 _
+// لايجوز لك ان تبدا اسم متغير برقم
+// لا يجوز لك إنشاء متغير بنفس اسماء متغيرات المحجوزة
+// $name غير متساوية مع $namE
 
-echo $result;
-/*
- +	Addition	            عملية جمع
--	Subtraction	            عملية طرح
-*	Multiplication          عمليات ضرب	
-/	Division	            عملية قسمة
-%	Modulus	                لإعادة الباقي عند عملية القسمة
-**	Exponentiation	        لإضافة قوة اس 
+// $()name = "Coder Shiyar";
+// $1number = 200;
+$number = 200;
 
-*/
-
-
+$text = "I love Coder Shiyar";
+$Text = "I learn HTML";
+echo $text;
 ?>
 
 

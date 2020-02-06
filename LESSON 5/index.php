@@ -1,38 +1,28 @@
 
 <?php
 
-$text = "     I do not love Coder Shiyar       ";
-$strlen = strlen($text);
+$data = array(1,2,3);
+$check = is_array($data);
+var_dump($check);
 
-$text_count_word = str_word_count($text);
 
-$text_strrev = strrev($text);
-$text_strops = strpos($text,"coder");
+// is_string(varable_name);
+// is_bool(varable_name);
+// is_float(varable_name);
+// is_integer(varable_name);
+// is_numeric(varable_name);
+// is_null(varable_name);
 
-$text_replace = str_replace('do not',' ',$text);
+// is_array(varable_name);
+// is_object(varable_name);
 
-$text_trim = trim($text);
-// var_dump($text_strops);
-echo $text;
-/*
- strlen(text)   يقوم بإعادة عدد احرف البيانات مخزنة ضمن متغير من نوع نصي
- str_word_count(text) من خلال هذا عنصر يمكنك معرفة عدد كلمات البيانات مخزنة ضمن متغير 
- strrev(text) هذا عنصر يقوم بعكس الأحرف 
 
- من خلال هذا عنصر يمكنك بحث عن كلمة او جملة في بيانات مخزنة ضمن المتغير
- strops(text,search_value)
 
- من خلال هذا عنصر يمكنك استبدال كلمة او جملة من بيانات
-  المخزنة ضمن المتغير بجملة او كلمة أخرى
-str_replace()
-
-هذا عنصر يقوم بحذف الفراغات في البداية والنهاية البيانات النصي
-trim()
-
-*/
 
 
 ?>
+
+
 
 
 

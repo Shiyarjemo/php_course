@@ -1,26 +1,28 @@
 
 <?php
-$username = "codershiyar";
-$password = "1234";
-$email = "test@gmail.com";
+$number1 = 8;
+$number2 = 10;
+$number2 %= $number1;
+
+echo $number2;
+
+/*
+ +	Addition	            عملية جمع
+-	Subtraction	            عملية طرح
+*	Multiplication          عمليات ضرب	
+/	Division	            عملية قسمة
+%	Modulus	                لإعادة الباقي عند عملية القسمة
+**	Exponentiation	        لإضافة قوة اس 
++=
+-=
+*=
+/=
+%=
+=
+*/
 
 
-if(($username == "codershiyar" || $email == "test@gmail.com") &&
- $password == "1234"){
-echo "تم تسجيل دخول";
-}else{
-echo "الشرط لم يتحقق";
-}
 ?>
 
 
-<!-- and	
-And	            و 	
-&&	           و
 
-or	           أو
-||	          او
-
-xor		            True if either $x or $y is true, but not both	
-!	قلب النتيجة     Not	
- -->

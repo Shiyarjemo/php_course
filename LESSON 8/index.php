@@ -1,45 +1,22 @@
 
 <?php
-// $getValue = 300<=>200;
-// echo $getValue . "<br>";
-// if($getValue==-1){
-// echo "تحقق الشرط";
-// }else{
-//     echo "لم يتحقق الشرط";
-// }
+$number1 = 12;
+$number2 = 5;
+$result = 3 ** 12;
 
-$fruit = "تفاح";
-if($fruit == "تفاح"){
-echo "سعر تفاح ب 10 دولار";
-}elseif($fruit=="برتقال"){
-echo "سعر برتقال 3 دولار";
-}
-elseif($fruit=="موز"){
-echo "سعر موز 2 دولار";
-}
-else{
-    echo "للأسف لا يتوفر هذه فاكهة لدينا";
-}
+echo $result;
+/*
+ +	Addition	            عملية جمع
+-	Subtraction	            عملية طرح
+*	Multiplication          عمليات ضرب	
+/	Division	            عملية قسمة
+%	Modulus	                لإعادة الباقي عند عملية القسمة
+**	Exponentiation	        لإضافة قوة اس 
+
+*/
+
 
 ?>
-
-<!-- 
-==	Equal	                    متساوية
-===	Identical	                 مطابقة	
-!=	Not equal	            غير متساوية
-<>	Not equal		        غير متساوية
-!==	Not identical	         غير مطابقة  
->	Greater than	            أكبر من
-<	Less than		            أصغر من
->=	Greater than or equal to	أكبر من او يساوي
-<=	Less than or equal to	    أصغر من او يساوي
-<=> -->
-
-
-
-
-
-
 
 
 
